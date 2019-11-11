@@ -1,0 +1,1 @@
+{"inventoryItem":"Snow Shovel","quantity":3,"onSitelocation":{"maintenanceShed":"A-1","condition":"used"},"location":"maintenance yard","consumableItems":[{"item":"ice melt","quantityOnHand":10},{"item":"ice melt","minimumWinterQuantity":25}]}
