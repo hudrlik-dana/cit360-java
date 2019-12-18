@@ -1,0 +1,8 @@
+CREATE TABLE `stock` (
+                         `stock_id` int(11) NOT NULL AUTO_INCREMENT,
+                         `stock_item` varchar(45) NOT NULL,
+                         `stock_type` varchar(45) NOT NULL,
+                         `stock_quantity` int(11) NOT NULL,
+                         PRIMARY KEY (`stock_id`),
+                         UNIQUE KEY `stock_item_UNIQUE` (`stock_item`)
+) ENGINE=InnoDB;
